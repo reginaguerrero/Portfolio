@@ -1,6 +1,23 @@
 * {
   box-sizing: border-box;
+  cursor: crosshair;
 }
 body {
-  margin: 0;
+  background: white;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Staatliches', serif;
+  color: #d02873;
+  top: 10px;
+  text-align: left;
+  margin-left: 80px;
+}
+p {
+  font-size: 40px;
+  font-family: 'Staatliches', serif;
+  color: #d02873;
+  opacity: 75%;
 }
