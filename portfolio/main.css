@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   font-family: 'Staatliches', serif;
   color: #d02873;
   top: 10px;
@@ -17,7 +17,7 @@ h1 {
 }
 p {
   font-size: 40px;
-  font-family: 'Staatliches', serif;
+  font-family: 'Fjalla One', serif;
   color: #d02873;
   opacity: 75%;
   text-align: center;
@@ -29,17 +29,17 @@ img {
 .ninfasduo {
   display: flex;
   padding: 10px;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 .rolesyegos {
   display: flex;
   padding: 10px;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 .digitales {
   display: flex;
   padding: 10px;
-  justify-content: flex-start;
+  justify-content: space-around;
 }
 .tresyo {
   display: flex;
@@ -62,4 +62,12 @@ img {
   padding: 10px;
   justify-content: flex-start;
 
+}
+@media screen and (max-width: 800px) {
+h1 {
+    font-size: 3rem;
+  }
+p {
+    font-size: 1.5rem;
+}
 }
