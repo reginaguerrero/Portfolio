@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+body {
+  background: #9d2259;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: 'Staatliches', serif;
+  color: #d02873;
+  /* color: #fd72b0; */
+  opacity: 75%;
+  top: 300px;
+  text-align: right;
+  margin-right: 80px;
+}
+p {
+  font-size: 60px;
+  font-family: 'Staatliches', serif;
+  color: white;
+  position: fixed;
+  width: 60vw;
+  top: 50vh;
+  left: 0px;
+}
+a {
+  font-size: 40px;
+  font-family: 'Staatliches', serif;
+  color: #7f1a47;
+  opacity: 75%;
+  text-decoration: none;
+  cursor: pointer;
+}
+.p {
+  position: absolute;
+  top: 240px;
+  right: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.email {
+  position: absolute;
+  top: 280px;
+  right: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.ig {
+  position: absolute;
+  top: 320px;
+  right: 100px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.draggable {
+  position: fixed;
+  height: 100vh;
+  top: 0px;
+  left: 50px;
+  cursor: grab;
+}
+
+@media screen and (max-width: 1150px) {
+h1 {
+  font-size: 3rem;
+  color: #fd72b0;
+  /* opacity: 50%; */
+
+}
+a {
+  font-size: 2rem;
+}
+.p{
+  position: absolute;
+  top: 250px;
+}
+
+.ig{
+  position: absolute;
+  top: 310px;
+}
+}
