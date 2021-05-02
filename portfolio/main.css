@@ -82,6 +82,7 @@ h1 {
   }
 p {
     font-size: 1.5rem;
+    margin-left: 25px;
 }
 .ninfasduo {
   justify-content: flex-start;
