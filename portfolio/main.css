@@ -8,7 +8,7 @@ body {
 }
 a {
   font-size: 20px;
-  font-family: 'Fjalla One', serif;
+  font-family: 'Fjalla One', sans-serif;
   color: #d02873;
   opacity: 75%;
   text-align: left;
@@ -20,14 +20,14 @@ a {
 
 h1 {
   font-size: 80px;
-  font-family: 'Staatliches', serif;
+  font-family: 'Staatliches', sans-serif;
   color: #d02873;
   top: 10px;
   text-align: center;
 }
 p {
   font-size: 40px;
-  font-family: 'Fjalla One', serif;
+  font-family: 'Fjalla One', sans-serif;
   color: #d02873;
   opacity: 75%;
   text-align: center;
