@@ -4,16 +4,26 @@
 }
 body {
   background: white;
-  margin: 40px;
+  margin: 25px;
+}
+a {
+  font-size: 20px;
+  font-family: 'Fjalla One', serif;
+  color: #d02873;
+  opacity: 75%;
+  text-align: left;
+  margin-left: 25px;
+  text-decoration: none;
+  cursor: pointer;
+
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
   font-family: 'Staatliches', serif;
   color: #d02873;
   top: 10px;
-  text-align: left;
-  margin-left: 40px;
+  text-align: center;
 }
 p {
   font-size: 40px;
@@ -66,8 +76,20 @@ img {
 @media screen and (max-width: 800px) {
 h1 {
     font-size: 3rem;
+    text-align: left;
+    margin-left: 25px;
+
   }
 p {
     font-size: 1.5rem;
+}
+.ninfasduo {
+  justify-content: flex-start;
+}
+.rolesyegos {
+  justify-content: flex-start;
+}
+.digitales {
+  justify-content: flex-start;
 }
 }
