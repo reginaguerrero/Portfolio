@@ -73,6 +73,31 @@ img {
   justify-content: flex-start;
 
 }
+/* #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #d02873;
+  font-family: 'Fjalla One', serif;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color:  #fd72b0;
+  opacity: 75%;
+} */
+.queenmexa {
+  position: absolute;
+  height: 12%;
+}
 @media screen and (max-width: 800px) {
 h1 {
     font-size: 3rem;
